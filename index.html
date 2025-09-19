@@ -50,7 +50,21 @@ Her work also extends to many short films, including “Julian and the Wind,” 
     </section>
 
     <footer id="contact">
-        <p>Get in touch: <a href="mailto:example@gmail.com" class="contact-link">example@gmail.com</a></p>
+
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="_replyto" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+  <button type="submit">Send</button>
+  <p id="status"></p>
+</form>
+
     </footer>
 </body>
 </html>
