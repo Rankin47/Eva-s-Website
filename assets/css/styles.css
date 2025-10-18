@@ -81,6 +81,14 @@ footer {
     font-weight: bold;
 }
 
+.hero img {
+    width: 300px;          /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;    /* Makes it circular */
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
 .contact-link:hover {
     text-decoration: underline;
 }
