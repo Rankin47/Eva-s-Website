@@ -92,3 +92,16 @@ footer {
 .contact-link:hover {
     text-decoration: underline;
 }
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #000;
+  background-color: #f9f9f9; /* optional */
+}
+
+footer .credits {
+  font-size: 0.85em;
+  color: #777;
+  margin: 0;
+}
+
